@@ -1,0 +1,74 @@
+
+
+#main-div-with-input-tag{
+    border: 1px solid rgba(255, 255, 255, 0.43);
+    border-radius: 10px;
+    /* box-shadow: 3px 3px rgba(164, 164, 162, 0.844);*/
+     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5); 
+    width: 360px;
+    margin-left: 36.5%;
+    padding: 15px 17px 0px ;
+}
+
+#cal-text{
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cal-main-div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.input-box{
+    font-size: 28px;
+    color: white;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 11%;
+    width: 280px;
+    padding: 25px 0px;
+    border: none;
+    background: transparent;
+    text-align: right;
+}
+.input-box::placeholder {
+    color: white;
+}
+.rows {
+    margin: 5px 0px 10px 0px;
+    font-weight: bold;
+}
+.buttons{
+    margin: 08px 08px;
+}
+.btn {
+    margin: 5px 7px 5px 7px;
+    padding: 15px 0px 15px 0px;
+    justify-content: space-around;
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.366);  */
+    /* box-shadow: 5px 5px rgb(53, 53, 53); */
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    border: none;
+    background: transparent;
+
+    
+}
+.btn-for-size {
+    font-size: 25px;
+}
+.operator-btn {
+    color: green;
+}
+#EQ-btn{
+    background-color: rgb(213, 139, 1);
+}
